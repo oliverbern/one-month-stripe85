@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 #Require a specific ruby version
 ruby '2.2.1'
 
+#Figaro gem for credentials
+gem "figaro"
+
 #Use stripe for e-commerce payments
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
